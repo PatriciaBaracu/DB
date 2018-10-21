@@ -11,14 +11,14 @@ from grupe;
 17)Aflati nume si prenumele profesorilor, care au predat cel putin o disciplina studentului cu id 100 
 <img width="444" alt="2" src="https://user-images.githubusercontent.com/43128526/47270791-7bd33b00-d579-11e8-9620-a8a10507af36.png">
 
+<img width="210" alt="3" src="https://user-images.githubusercontent.com/43128526/47270792-7d9cfe80-d579-11e8-9b7c-387220338388.png">
+
+<img width="193" alt="4" src="https://user-images.githubusercontent.com/43128526/47270793-8261b280-d579-11e8-91c6-46ead0593d17.png">
+
 Select Nume_Profesor, Prenume_Profesor
 From profesori
 inner join studenti_reusita on studenti_reusita.Id_Profesor=Profesori.Id_Profesor
 Where id_student=100;
-
-<img width="210" alt="3" src="https://user-images.githubusercontent.com/43128526/47270792-7d9cfe80-d579-11e8-9b7c-387220338388.png">
-
-<img width="193" alt="4" src="https://user-images.githubusercontent.com/43128526/47270793-8261b280-d579-11e8-91c6-46ead0593d17.png">
 
 Exercise 3
 
