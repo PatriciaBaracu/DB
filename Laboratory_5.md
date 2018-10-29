@@ -1,6 +1,6 @@
 Exercitiul 1
 
-Completati urmatorul cod pentru a afi~a eel mai mare numar dintre cele trei numere prezentate:
+Completati urmatorul cod pentru a afisa cel mai mare numar dintre cele trei numere prezentate:
 
 <img width="320" alt="1" src="https://user-images.githubusercontent.com/43128526/47623319-a9d7f280-db18-11e8-9451-505f50e2f7c7.png">
 
