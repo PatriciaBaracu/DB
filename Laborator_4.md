@@ -24,15 +24,11 @@ Exercise 3
 
 32)Furnizati numele,prenumelesi media notelor pe grupe pentru studenti 
 
-<img width="291" alt="6" src="https://user-images.githubusercontent.com/43128526/47270978-13d22400-d57c-11e8-967c-4d6809e82077.png">
+<img width="695" alt="lab4" src="https://user-images.githubusercontent.com/43128526/49340863-10878900-f64e-11e8-9057-a99612219148.png">
 
-<img width="297" alt="7" src="https://user-images.githubusercontent.com/43128526/47270979-16cd1480-d57c-11e8-8e2a-28487cbc617a.png">
-
-<img width="284" alt="8" src="https://user-images.githubusercontent.com/43128526/47270981-1af93200-d57c-11e8-8d46-ce18bf5aa382.png">
-
-<img width="308" alt="9" src="https://user-images.githubusercontent.com/43128526/47270982-1df42280-d57c-11e8-830f-64f72dfda8d5.png">
-
-Select Id_Grupa Nume_Student ,Prenume_Student,AVG(Nota)
-From studenti
-inner join studenti_reusita on studenti_reusita.Id_Student=studenti.Id_Student
-group by  Id_Grupa,Nume_Student ,Prenume_Student;
+select studenti.studenti.Nume_Student,studenti.studenti.Prenume_Student,grupe.Cod_Grupa,avg(cast(Nota as float))as Media
+from studenti.studenti_reusita 
+inner join studenti.studenti  on  studenti.studenti_reusita.Id_Student = studenti.studenti.Id_Student
+inner join grupe on  studenti.studenti_reusita.Id_Grupa = grupe.Id_Grupa
+group by  studenti.studenti.Nume_Student, studenti.studenti.Prenume_Student,grupe.Cod_Grupa
+order by grupe.Cod_Grupa;
