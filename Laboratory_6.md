@@ -3,7 +3,7 @@ Exercise 1
 
 Sa se scrie o intructiune T-SQL, care ar popula coloana Adresa_Postala_Profesor din tabelul profesori cu valoarea "mun.Chisinau",unde adresa e necunoscuta.
 
-
+```sql
 UPDATE profesori 
 
 SET Adresa_Postala_Profesor='mun.Chisinau' 
@@ -13,6 +13,7 @@ WHERE Adresa_Postala_Profesor IS NULL;
 SELECT Nume_Profesor,Prenume_Profesor,Adresa_Postala_Profesor 
 
 FROM profesori
+```
 
 <img width="408" alt="lab6_1" src="https://user-images.githubusercontent.com/43128526/47971541-3f383100-e09b-11e8-965e-497cff5ebe2b.png">
 
@@ -44,7 +45,7 @@ b) Profesorul îndrumător trebuie să predea un număr maximal posibil de disci
 
 c) Să se scrie instructiunile ALTER, SELECT, UPDATE necesare pentru crearea coloanelor în tabelul grupe, pentru selectarea candidaților și înserarea datelor.
 
-
+```sql
 alter table grupe add sef_grupa int;
 
 alter table grupe add prof_indrumator int ;
@@ -79,7 +80,7 @@ while(@index<=@nr_grup)
 END
 
 ALTER TABLE grupe ADD CONSTRAINT prof_stud UNIQUE (sef_grupa,prof_indrumator);
-
+```
 
 <img width="581" alt="ex3" src="https://user-images.githubusercontent.com/43128526/48787637-e3ec7c80-ecf1-11e8-8cd8-a5253d5f3002.png">
 <img width="541" alt="ex3_2" src="https://user-images.githubusercontent.com/43128526/48787856-46de1380-ecf2-11e8-893f-bbd599d68861.png">
@@ -89,7 +90,7 @@ Exercise 4
 
 Să se scrie o instrucțiune T-SQL, care ar mări toate notele de evaluare șefilor de grupe cu un punct. Nota maximală (10) nu poate fi mărită.
 
-
+```sql
 declare @counter int = 0
 
 select distinct top (10) st.Nume_Student, st.Prenume_Student,sr.Nota
@@ -107,6 +108,7 @@ from studenti_reusita as sr
   where d.Disciplina = 'Baze de date' and sr.Tip_Evaluare = 'Testul 1'
 	
   and NOT sr.Nota=6 and NOT sr.Nota=8
+```
 
 <img width="342" alt="ex4" src="https://user-images.githubusercontent.com/43128526/48788109-cb309680-ecf2-11e8-9680-b238495c0f67.png">
 
@@ -121,7 +123,7 @@ c) Să se insereze toate datele din tabelul profesori în tabelul profesori_new.
 
 În coloana Localitate să fie inserata doar informatia despre denumirea localității din coloana-sursă Adresa_Postala_Profesor. În coloana Adresa_l, doar denumirea străzii. În coloana Adresa_2, să se păstreze numărul casei și (posibil) a apartamentului.
 
-
+```sql
 create table profesori_new
 
 (Id_Profesor int NOT NULL,
@@ -199,6 +201,7 @@ then substring(Adresa_2, patindex('%, [0-9]%',Adresa_2)+1,len(Adresa_2) - patind
 				
 select * from profesori_new
 
+```
 
 <img width="717" alt="ex6_5" src="https://user-images.githubusercontent.com/43128526/48806673-c6d0a180-ed23-11e8-82f4-83dac8b0267e.png">
 <img width="716" alt="ex6_5_2" src="https://user-images.githubusercontent.com/43128526/48806678-ccc68280-ed23-11e8-9b70-6bf33136fc6c.png">
