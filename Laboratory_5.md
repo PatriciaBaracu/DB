@@ -23,4 +23,9 @@ Exercitiul 4
 Modificati exercitiile din sarcinile 1 si 2 pentru a include procesarea erorilor cu TRY si CATCH, si
 RAISERRROR.
 
-<img width="349" alt="4" src="https://user-images.githubusercontent.com/43128526/47624009-07bc0880-db20-11e8-82f8-80705b2cb1a7.png">
+<img width="348" alt="lab5_41" src="https://user-images.githubusercontent.com/43128526/49348297-56c00500-f6ad-11e8-922d-e0855a7cfbea.png">
+<img width="419" alt="lab5_411" src="https://user-images.githubusercontent.com/43128526/49348298-59225f00-f6ad-11e8-98c3-9901628ae14d.png">
+
+
+<img width="400" alt="lab5-51" src="https://user-images.githubusercontent.com/43128526/49348299-5c1d4f80-f6ad-11e8-939e-3d1bf00e686e.png">
+<img width="481" alt="lab5-52" src="https://user-images.githubusercontent.com/43128526/49348301-5fb0d680-f6ad-11e8-98c4-e45a2fcbbb18.png">
