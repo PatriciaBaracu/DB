@@ -45,5 +45,6 @@ Sa se rescrie 2 interogari formulate in exercitiile din capitolul 4, in asa fel 
 Exrcise 6 
 Graph
 <img width="370" alt="lab8ex6_1" src="https://user-images.githubusercontent.com/43128526/49362759-5133e080-f6e8-11e8-9072-706794903e03.png">
+
 <img width="189" alt="8_6_2" src="https://user-images.githubusercontent.com/43128526/49362766-53963a80-f6e8-11e8-9af7-b77aac59db23.png">
 
