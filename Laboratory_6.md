@@ -285,3 +285,11 @@ values (
 		select * from orarul
 <img width="623" alt="ex7" src="https://user-images.githubusercontent.com/43128526/48810516-7ca2ec80-ed32-11e8-9548-bfe9a3becbef.png">
 
+Exercise 8
+
+Sa se scrie interogarile de creare a indecsilor asupra tabelelor din baza de date universitatea pentru a asigura o performanta sporita la executarea interogarilor SELECT din Lucrarea practica 4.
+
+<img width="883" alt="exercise6_1" src="https://user-images.githubusercontent.com/43128526/49349952-b3272280-f6b5-11e8-90d3-b496f73ab703.png">
+<img width="951" alt="exr6_2" src="https://user-images.githubusercontent.com/43128526/49349957-b6221300-f6b5-11e8-80ab-380599ec77a4.png">
+<img width="939" alt="exrc6_3" src="https://user-images.githubusercontent.com/43128526/49349959-b7ebd680-f6b5-11e8-8520-145c548b17f1.png">
+
