@@ -80,6 +80,13 @@ Nume_Prenume_Student, Disticplina, Nota, Data_Evaluare.
 
 Exercise 9
 
+Se cere realizarea unei functii definite de utilizator, care ar gasi eel mai sarguincios sau eel
+mai slab student dintr-o grupa. Se define~te urmatorul format al functiei: <numeJuncfie>
+(<Cod_ Grupa>, <is_good>). Parametrul <is_good> poate accepta valorile "sarguincios" sau
+"slab", respectiv. Functia sa returneze un tabel cu urmatoarele campuri Grupa,
+Nume_Prenume_Student, Nota Medie , is_good. Nota Medie sa fie cu precizie de 2
+zecimale.
+  
 <img width="526" alt="lab9_ex9_1" src="https://user-images.githubusercontent.com/43128526/49708305-c6973800-fc37-11e8-9ed8-31cdb98a1c9b.png">
 <img width="682" alt="lab9_ex9_2" src="https://user-images.githubusercontent.com/43128526/49708308-c7c86500-fc37-11e8-898f-42aba61392f5.png">
 <img width="450" alt="lab9_ex9_3" src="https://user-images.githubusercontent.com/43128526/49708311-cac35580-fc37-11e8-8af0-6ec5ae9b9fe9.png">
